@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Preserve order test runs"  preserve-order="true">
+	<test name="Regression">
+		<classes>
+<!-- Test run on alphabetical order -->
+			<class name="TESTNGANNoTATION.GroupExample" />
+			<class name="TESTNGANNoTATION.IncludeAndExcludeTestMethods" />
+		</classes>
+	</test> <!-- "Regration1" preserve order="true" -->
+</suite> <!-- Preserve order test runs -->

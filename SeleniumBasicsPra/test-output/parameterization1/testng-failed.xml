@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parameterization1]">
+  <test thread-count="5" name="parameterization test(failed)">
+    <parameter name="Signup" value="Actitime"/>
+    <parameter name="password" value="manager"/>
+    <parameter name="browsername" value="chrome"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="TESTNGANNoTATION.parameterization1">
+        <methods>
+          <include name="logininActitime" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TESTNGANNoTATION.parameterization1 -->
+    </classes>
+  </test> <!-- parameterization test(failed) -->
+</suite> <!-- Failed suite [parameterization1] -->
